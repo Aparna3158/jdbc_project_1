@@ -4,7 +4,7 @@ public class HELLO {
 
 	public static void main(String[] args) {
 		System.out.println("Hello world");
-		Scanner s = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		System.out.println("enter a number ");
 		int number = scanner.nextInt();
                 int square = number * number;
